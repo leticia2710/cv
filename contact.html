@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Contact Me </title>
+</head>
+
+<body>
+  <h1> Contact Me </h1>
+  <p> Behance: </p>
+  <p> Instagram: </p>
+  <p> LinkedIn: </p>
+<hr>
+<!--Formulários com html: na ação ele vai enviar um email com as informações
+do input para leka231268 no enctype ele define o tipo de texto da resposta -->
+<form action="mailto:leka231268@hotmail.com" method="post" enctype="text/plain">
+<!--label dão o nome ao input, o nome do input é o que aparece no email junto
+com cada parte da mensagem -->
+  <label>Your Name:</label>
+  <input type="text" name="YourName" value=""><br>
+  <!-- input email tem pré definições e não deixa mandar qualquer coisa -->
+  <label>Your Email:</label>
+  <input type="email" name="YourEmail" value=""><br>
+  <!--caixa de texto grande -->
+  <label>Your Message:</label><br>
+  <textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+  <!--Botão de enviar -->
+  <input type="submit" name="">
+</form>
+
+</body>
+</html>
